@@ -13,13 +13,17 @@
 // limitations under the License.
 
 async function repeatTask(task, n) {
+  if (!task) return console.error("You need to provide a valid function");
+  if (!n) return console.log("You need to provide a valid amound");
+
   if (typeof task !== "function") {
     return console.error("The provided task must be a function.");
   }
   if (typeof n !== "number") {
     return console.error("The provided amount must be a number.");
   }
-  for (let i = 0; i <= n; i++) {
+
+  for (let i = 1; i <= n; i++) {
     await task();
   }
 }
