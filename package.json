@@ -1,6 +1,6 @@
 {
   "name": "@arijitdn/task-repeater",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A tool for repeating any tasks for an amount of time.",
   "main": "src/index.js",
   "keywords": [
@@ -11,7 +11,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arijitdn/task-repeater"
+    "url": "https://github.com/arijitdn/task-repeater.git"
   },
   "homepage": "https://docs.arijitdn.com/task-repeater"
 }
