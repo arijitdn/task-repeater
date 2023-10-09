@@ -1,6 +1,6 @@
 {
   "name": "@arijitdn/task-repeater",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool for repeating any tasks for an amount of time.",
   "main": "src/index.js",
   "keywords": [
